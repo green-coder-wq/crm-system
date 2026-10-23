@@ -32,11 +32,11 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('products', '0001_initial'),
-        ('auth', '0012_alter_user_first_name_max_length'),
         ('leads', '0001_initial'),
         ('advertisements', '0001_initial'),
         ('contracts', '0001_initial'),
         ('customers', '0001_initial'),
+        ('auth', '0012_alter_user_first_name_max_length'),
     ]
 
     operations = [
